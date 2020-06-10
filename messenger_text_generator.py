@@ -122,8 +122,9 @@ class MessengerTextGenerator:
         if self.model is None:
             print("Create a model first")
             return
-        weights = self.model.get_weights()
+
         model_gen = self.__create_model(self.embedding_dim, self.units, self.dropout_rate,1)
+        model_gen.set_weights(self.model.get_weights())
         # Converting our start string to numbers (vectorizing)
         input_eval = [self.__char2idx[s] for s in start_string]
         input_eval = tf.expand_dims(input_eval, 0)
