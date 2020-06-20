@@ -31,3 +31,5 @@ It's just for fun. The output will probably not respect grammar or common sense 
 Acknowledgements : <br />
 https://www.kaggle.com/shahules/basic-eda-cleaning-and-glove#Data-Cleaning <br />
 https://www.tensorflow.org/tutorials/text/text_generation
+
+Portions of this page are modifications based on work created and shared by Google and used according to terms described in the Creative Commons 4.0 Attribution License.
